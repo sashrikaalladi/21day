@@ -1,4 +1,4 @@
 Git install
 Git Hub
 Create Account
-Pushing all the data into 
+Pushing all the data into repository
