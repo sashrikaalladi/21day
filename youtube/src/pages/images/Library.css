@@ -1,0 +1,20 @@
+.lib{ display: flex;
+    flex-wrap: wrap;
+    
+    padding: 0;
+    height: 30rem;
+
+}
+
+.lib-div {
+    margin: 0 20px;
+    height: 10rem;
+    width: 10rem;
+ 
+}
+
+.lib img {
+    width: 100%;
+    
+    border-radius: 50%;
+}

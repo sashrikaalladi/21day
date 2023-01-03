@@ -1,0 +1,13 @@
+h4{
+    color: aliceblue;
+}
+.videocard{
+    width:270px;
+    margin-bottom: 40px;
+    color: azure;
+
+&__thumbnail{
+    height:140px;
+    width:250px;
+}
+}

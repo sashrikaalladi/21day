@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: aliceblue;
+    /* From https://css.glass */
+    background: rgba(15, 13, 13, 0.67);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(15, 13, 13, 1);
+
+    &__left {
+        display: inline-flex;
+
+        &__one {
+            margin-top: 10px;
+        }
+    }
+
+
+    &__logo {
+        display: inline-flex;
+        height: 60px;
+        object-fit: contain;
+        margin-left: 10px;
+        // width: ;
+    }
+
+    &__input {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 5px;
+    }
+
+    &__icons {
+        width: 25%;
+        /* background-color: black; */
+        display: flex;
+        justify-content: space-around;
+        margin-right: 8px;
+        font-size: 20px;
+        padding: 20px;
+
+    }
+
+    &__input {
+        input {
+            flex: 1;
+            border: none;
+            border-radius: 25px;
+            padding-left: 4px;
+            white-space: 5px;
+            background-color: black;
+            color: aliceblue;
+        }
+    }
+
+    &__inputbutton {
+        width: 50px !important;
+        border-left: 1px solid white;
+        /* background-color: lightgray; */
+
+    }
+
+    .image {
+        border-radius: 50%;
+    }
+}

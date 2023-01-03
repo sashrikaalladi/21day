@@ -1,0 +1,17 @@
+.videos{
+   
+   flex:1;
+   
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+ h2{
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-left: 5px;
+
+} 
+.videos__videoall{
+    display: flex;
+    flex-wrap: wrap;
+}
