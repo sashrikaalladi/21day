@@ -33,18 +33,16 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
       <Link to="Videos"><SidebarRow selected Icon={HomeIcon} title="Home" /></Link>
+      <Link to="Subscriptions"><SidebarRow Icon={SubscriptionsIcon} className="sub" title="Subscription" /></Link>
       <SidebarRow Icon={OndemandVideoIcon} title="shorts" />
-      <Link to="Librarydis"><SidebarRow Icon={SubscriptionsIcon} className="sub" title="Subscription" /></Link>
       <hr />
       <SidebarRow Icon={VideoLibraryIcon} title="Library" />
       <SidebarRow Icon={HistoryIcon} title="History" />
       <SidebarRow Icon={VideoSettingsIcon} title="your videos" />
       <SidebarRow Icon={WatchLaterIcon} title="Watch videos" />
       <SidebarRow Icon={ThumbUpIcon} title="Liked videos" />
-      {/* <SidebarRow Icon={ExpandMoreIcon}  title="showmore"/> */}
       <hr />
       <h3>Subscriptions</h3>
-      {/* <img id="img" draggable="false" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/-EtbGra_zBCBOelZOJMVy1TSRu_peTwgPaLjMzQcDz5p3fWdVSoNMmXEqJ6ulJakBJ4kdikmEw=s88-c-k-c0x00ffffff-no-rj" title="Music"/> */}
       <SidebarRow Icon={ThumbUpIcon} title="Music" />
       <SidebarRow Icon={ShoppingBagIcon} title="sports" />
       <SidebarRow Icon={VideogameAssetIcon} title="Gaming" />
@@ -76,7 +74,8 @@ const Sidebar = () => {
       </p>
       <br />
       <p>© 2023 Google LLC</p>
-    </div>
+      </div>
+
   )
 }
 

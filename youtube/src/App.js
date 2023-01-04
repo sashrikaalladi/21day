@@ -5,7 +5,8 @@ import Header from './pages/Header/Header'
 import Sidebar from './pages/sidebar/Sidebar';
 import Videos from './pages/videos/Videos';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Librarydis from './pages/images/Librarydis';
+import Subscriptions from './pages/subscriptions/Subscriptions';
+
 
 function App() {
   return (
@@ -17,17 +18,13 @@ function App() {
           <Sidebar />
           <Routes>
           <Route path="/" element={<Videos />} />
-            <Route path="/Librarydis" element={<Librarydis />} />
+            <Route path="/Subscriptions" element={<Subscriptions />} />
             <Route path="/Videos" element={<Videos />} />
            
           </Routes>
           
         </BrowserRouter>
-        {/* <Videos/> */}
         </div>
-  {/* <div className='vd'>
-      <Videos/>
-    </div>  */}
     </div>
 
   );

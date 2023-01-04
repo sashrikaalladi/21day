@@ -3,7 +3,19 @@ import './Videos.css'
 import Videocard from '../videocard/Videocard'
 const Videos = () => {
   return (
-    <div className='videos'>
+  <div className='videos'>
+      <div className='videos__button'>
+      <button className='btn'>All</button>
+      <button className='btn'>jerry</button>
+      <button className='btn'>Music</button>
+      <button className='btn'>Comedy</button>
+      <button className='btn'>Live</button>
+      <button className='btn'>Database</button>
+      <button className='btn'>React js</button>
+      <button className='btn'>Education</button>
+      <button className='btn'>Television</button>
+      <button className='btn'>Movies</button>
+      </div> 
       <h2>Recommended</h2>
       <div className='videos__videoall'>
         <Videocard

@@ -16,11 +16,10 @@
     border: 1px solid rgba(15, 13, 13, 1);
 
     &__left {
-        display: inline-flex;
+        
 
-        &:one{
-            margin-top: 10px;
-            font-size: 30px;
+        &__one {
+            margin-top: -5px;
         }
     }
 
@@ -44,7 +43,6 @@
 
     &__icons {
         width: 25%;
-        /* background-color: black; */
         display: flex;
         justify-content: space-around;
         margin-right: 8px;
@@ -68,7 +66,7 @@
     &__inputbutton {
         width: 50px !important;
         border-left: 1px solid white;
-        /* background-color: lightgray; */
+
 
     }
 

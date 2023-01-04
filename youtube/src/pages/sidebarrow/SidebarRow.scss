@@ -1,0 +1,33 @@
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+
+    &__icon {
+        font-size: large;
+
+    }
+
+    &__title {
+        flex: 1;
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    &:hover {
+        background-color: rgb(47, 46, 46);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    &:hover {
+        icon {
+            color: red;
+        }
+
+        title {
+            font-weight: bold;
+        }
+    }
+}

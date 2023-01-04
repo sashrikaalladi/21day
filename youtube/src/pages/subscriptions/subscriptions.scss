@@ -1,0 +1,41 @@
+.lib{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex:0.9;
+ margin: 0 10px;
+//  margin-left:3%;
+
+img{
+     width: 90%;height:50%;
+border-radius: 50%;
+color: aliceblue;
+}
+&-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    // background-color: aliceblue;
+    height: fit-content;
+
+    li{
+        color: white;
+       margin: 2%;
+       height: 20rem;
+        text-align: center;
+    }
+    button{
+        background-color: rgb(42, 42, 40);
+        background-image: -moz-linear-gradient(black,grey);
+        border-radius:50px;
+        color:white;
+        padding:10px;
+
+        &:hover{
+                opacity:1;
+                background-color:gray;
+        }
+    }
+}
+}

@@ -1,16 +1,20 @@
-.sidebar{
+.sidebar {
     width: 15rem;
     color: aliceblue;
-    
+    /* overflow-y: scroll; */
+    /* position: absolute; */
+
 }
-.sidebar hr{
- height:1px;
- border:0;
- background-color: lightgray;
- margin-top: 10px;
- margin-bottom:10px;
+
+.sidebar hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.sub title{
+
+.sub title {
     text-decoration: none;
     color: aliceblue;
 }

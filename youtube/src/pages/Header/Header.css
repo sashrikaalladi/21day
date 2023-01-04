@@ -26,7 +26,6 @@
 }
 .header__icons{
     width: 25%;
-    /* background-color: black; */
     display: flex;
     justify-content: space-around;
     margin-right: 8px;
@@ -46,7 +45,7 @@
 .header__inputbutton{
     width:50px !important;
     border-left: 1px solid white;
-    /* background-color: lightgray; */
+  
     
 }
 .image{

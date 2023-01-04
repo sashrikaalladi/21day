@@ -5,9 +5,17 @@ h4{
     width:270px;
     margin-bottom: 40px;
     color: azure;
+    &:hover{
+        opacity:1;
+        transform: scale(1.25);
+        z-index: 1;
+    }
 
-&__thumbnail{
+&__thumbnail
+{
     height:140px;
     width:250px;
+    border-radius:10px;
+    }
 }
-}
+
