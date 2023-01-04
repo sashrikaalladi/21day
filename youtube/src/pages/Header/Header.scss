@@ -18,8 +18,9 @@
     &__left {
         display: inline-flex;
 
-        &__one {
+        &:one{
             margin-top: 10px;
+            font-size: 30px;
         }
     }
 
