@@ -1,9 +1,12 @@
 import React from 'react'
 import './Videos.css'
 import Videocard from '../videocard/Videocard'
+import { ThemeChanger } from '../usetheme/Themer';
+ import { Themer } from '../usetheme/Themer';
 const Videos = () => {
+  const [data,setData]=React.useContext(ThemeChanger)
   return (
-  <div className='videos'>
+  <div className='videos' style={{backgroundColor:data}}>
       <div className='videos__button'>
       <button className='btn'>All</button>
       <button className='btn'>jerry</button>

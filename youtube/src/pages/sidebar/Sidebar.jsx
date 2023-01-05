@@ -27,11 +27,12 @@ import FlagIcon from '@mui/icons-material/Flag';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import ReportProblemIcon from '@mui/icons-material/ReportProblem';
 import {Link} from 'react-router-dom';
-
+import { ThemeChanger } from '../usetheme/Themer';
+import { Themer } from '../usetheme/Themer';
 const Sidebar = () => {
-
+   const [data,setData]=React.useContext(ThemeChanger)
   return (
-    <div className='sidebar'>
+    <div className='sidebar' style={{backgroundColor:data}} >
       <Link to="Videos"><SidebarRow selected Icon={HomeIcon} title="Home" /></Link>
       <Link to="Subscriptions"><SidebarRow Icon={SubscriptionsIcon} className="sub" title="Subscription" /></Link>
       <SidebarRow Icon={OndemandVideoIcon} title="shorts" />
@@ -42,7 +43,7 @@ const Sidebar = () => {
       <SidebarRow Icon={WatchLaterIcon} title="Watch videos" />
       <SidebarRow Icon={ThumbUpIcon} title="Liked videos" />
       <hr />
-      <h3>Subscriptions</h3>
+      <h3 onClick={()=>setData('gray')}>Subscriptions</h3>
       <SidebarRow Icon={ThumbUpIcon} title="Music" />
       <SidebarRow Icon={ShoppingBagIcon} title="sports" />
       <SidebarRow Icon={VideogameAssetIcon} title="Gaming" />
