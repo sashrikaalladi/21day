@@ -34,7 +34,7 @@ const Header = () => {
         <AppsRoundedIcon />
         <AccountCircleRoundedIcon  />
         <div>
-          <ReactSwitch onChange={()=>setData((curr)=>(curr==="black"?"#07b0a5":"black"))} checked={Themer==="black"}/> 
+          <ReactSwitch onChange={()=>setData((curr)=>(curr==="black"?"#011638":"black"))} checked={Themer==="black"}/> 
         </div>
         <img id="img" draggable="false" class="image" alt="Avatar image" height="32" width="32" src="https://yt3.ggpht.com/BWDKASmMoVJ0mf1mhkTy5koRlPccu3JnK06WcsuvPJYslyXaSuPNy7SIBxVeLWNy1Z8LPoHs=s88-c-k-c0x00ffffff-no-rj-mo"></img>
       </div>

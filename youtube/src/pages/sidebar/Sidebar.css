@@ -2,7 +2,7 @@
     width: 15rem;
     color: aliceblue;
     /* overflow-y: scroll; */
-    /* position: absolute; */
+   /* position:sticky; */
    box-shadow:5px 5px 5px gray;
    z-index: 1;
 
