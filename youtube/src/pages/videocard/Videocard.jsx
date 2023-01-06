@@ -5,9 +5,6 @@ const Videocard = ({ image, title, channel, views, timestamp, img }) => {
   return (
     <div className='videocard'>
       <img className='videocard__thumbnail' src={image} alt="" />
-      {/* <div className='videocard__info'>  */}
-
-      {/* </div> */}
       <div className='video__text'>
         <p>{img}</p>
         <h4>{title}</h4>
