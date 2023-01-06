@@ -16,14 +16,14 @@
     object-fit: contain; 
     margin-left:10px; 
 }
-.header__input{
+/* .header__input{
     display: flex;
     align-items: center;
     width:50%;
-    border:1px solid white; 
+   border:1px solid white; 
     border-radius: 25px;
     padding:5px; 
-}
+} */
 .header__icons{
     width: 25%;
     display: flex;
@@ -41,7 +41,7 @@
  white-space:5px;
  background-color:black;
  color: aliceblue;
-} 
+}  
 .header__inputbutton{
     width:50px !important;
     border-left: 1px solid white;

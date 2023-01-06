@@ -29,7 +29,8 @@
         height: 60px;
         object-fit: contain;
         margin-left: 10px;
-        // width: ;
+        background: transparent !important;
+       
     }
 
     &__input {
@@ -39,6 +40,7 @@
         border: 1px solid white;
         border-radius: 25px;
         padding: 5px;
+        
     }
 
     &__icons {
@@ -54,18 +56,24 @@
     &__input {
         input {
             flex: 1;
-            border: none;
+            border:1px solid black;
             border-radius: 25px;
-            padding-left: 4px;
-            white-space: 5px;
-            background-color: black;
+            padding:10px;
+            padding-left: 20px;
+            white-space:25%;
+            background-color:transparent;
             color: aliceblue;
+            width:50px;
+        
+           
         }
     }
 
     &__inputbutton {
         width: 50px !important;
         border-left: 1px solid white;
+        // margin-left: 400px;
+       
 
 
     }
