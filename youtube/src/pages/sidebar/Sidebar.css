@@ -1,8 +1,11 @@
 .sidebar {
     width: 15rem;
     color: aliceblue;
+<<<<<<< HEAD
     /* overflow-y: scroll; */
    /* position:sticky; */
+=======
+>>>>>>> 105ea3d1702e4e7fa6868324f2643f4f51fa830e
    box-shadow:5px 5px 5px gray;
    z-index: 1;
 
