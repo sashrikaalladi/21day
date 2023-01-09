@@ -30,8 +30,9 @@ h2 {
         padding:10px; */
     }
    .btn{
-        background-color: rgb(42, 42, 40);
-        background-image: -moz-linear-gradient(black,grey);
+        background-color: rgb(42, 42, 40); 
+        background-image: -moz-linear-gradient(black,grey); 
+        /* background-color: transparent; */
         border-radius: 20px;
         color: aliceblue;
        padding: 10px;
